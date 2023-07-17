@@ -1,0 +1,36 @@
+#sudokuCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.cell{
+    width: 25px;
+    height: 25px;
+}
+
+.row{
+    margin: 5px;
+}
+
+.column{
+    margin-bottom: 10px;
+}
+
+#grid{
+    width: 346px;
+    height: 320px;
+    background-color: black;
+    padding: 8px 0px 8px 8px;
+}
+
+#warnMessage{
+    color: red;
+    visibility: hidden;
+}
+
+#invalidSudoku{
+    color: red;
+    visibility: hidden;
+}
